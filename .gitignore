@@ -1,0 +1,50 @@
+# Environnements virtuels
+venv/
+env/
+*.pyc
+*.pyo
+__pycache__/
+
+# Configurations spécifiques de VS Code
+.vscode/
+
+# Dépendances installées
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Fichiers de logs
+*.log
+*.out
+*.err
+
+# Base de données locale
+instance/
+*.sqlite3
+
+# Fichiers générés par Flask
+*.pid
+
+# Fichiers de test
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+
+# Autres
+.idea/
+*.swp
+*.swo
